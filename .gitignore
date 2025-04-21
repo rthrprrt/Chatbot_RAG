@@ -1,0 +1,35 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env*
+!.env_example
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data / Model files (Optional: Add if data is large or sensitive)
+# data/
+# vectorstore_db/ # If Chroma persists to disk and you don't want to commit it
+
+# Gradio log files (if any)
+*.log

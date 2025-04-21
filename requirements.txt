@@ -1,0 +1,12 @@
+gradio==4.36.1
+huggingface_hub==0.23.4
+langchain==0.2.5
+langsmith==0.1.77
+langchain-core==0.2.7
+langchain-chroma==0.1.1
+langchain-community==0.2.5
+langchain-openai==0.1.8
+langchain-text-splitters==0.2.1
+python-dotenv==1.0.1
+pypdf==3.12.1
+uuid # Standard library, but good to note its use
